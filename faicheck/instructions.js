@@ -43,7 +43,7 @@ function showInstructions(){
         }
         
         output+=pasodescargafaicheck;
-        output+="<li>Ve a la carpeta donde guardaste el archivo descargado y colócalo en " + (where == "usb" ? "el USB de destino. <span style=\"font-weight:bold; color:#a00;\">IMPORTANTE: si el USB está en NTFS/FAT/FAT32/EXFAT o cualquier sistema de archivos sin permisos de tipo UNIX, el programa <u>NO se podrá ejecutar usando Linux</u> como sistema operativo</span>" : "la carpeta de tu ordenador que más te guste") + ".</li>";
+        output+="<li>Ve a la carpeta donde guardaste el archivo descargado y colócalo en " + (where == "usb" ? "el USB de destino." : "la carpeta de tu ordenador que más te guste") + ".</li>";
         output+="<li>Abre las propiedades del archivo, ve al apartado permisos y <b>proporciónale al archivo permiso de ejecución</b>.</li>";
         output+="<li>Doble click en el archivo que acabas de mover y espera a que el programa cargue.";
         
