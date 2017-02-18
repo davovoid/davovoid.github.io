@@ -4,3 +4,4 @@ Allow: */$
 Allow: */*.html$
 Allow: */*.css$
 Allow: */*.png$
+Allow: */*.js$
