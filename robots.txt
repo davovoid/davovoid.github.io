@@ -5,3 +5,4 @@ Allow: */*.html$
 Allow: */*.css$
 Allow: */*.png$
 Allow: */*.js$
+Allow: /sitemap.xml
