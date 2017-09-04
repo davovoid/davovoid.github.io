@@ -15,7 +15,7 @@ body{
     font-size:2.8vw;
     color: #004075;
     
-    text-shadow: 0px 0px 30px #fff;
+    text-shadow: 0px 0px 10px #fff;
     
     margin: 30px 0px 10px 0px;
     margin: 2.09vw 0px 0.7vw 0px;
@@ -28,8 +28,6 @@ body{
     font-size:25pt;
     font-size:1.74vw;
     color: #4B8DBE;
-    
-    text-shadow: 0px 0px 60px #fff;
     
     margin: 40px 0px 35px 0px;
     margin: 2.79vw 0px 2.44vw 0px;
@@ -104,17 +102,25 @@ body{
     
     border: 0;
     
-    width: 152px;
-    height: 54px;
+    width: 126px;
+    height: 45px;
     
     width: 9.85vw;
-    height: 3.5vw;
+    height: 3.52vw;
     
     max-width: 152px;
     max-height: 54px;
     
     margin-top: 25px;
     margin-top: 5vh;
+    
+    transition: 0.2s;
+    
+}
+
+.pageTitle .dropdownbtn:hover{
+ 
+    filter: brightness(150%);
     
 }
 
@@ -130,8 +136,8 @@ body{
     
     border-radius: 5px;
     
-    box-shadow: 0px 0px 15px #5EB1EF;
-    box-shadow: 0px 0px 1vw #5EB1EF;
+    box-shadow: 0px 0px 15px #fff;
+    box-shadow: 0px 0px 1vw #fff;
     
     transition: 0.2s;
     
@@ -172,8 +178,6 @@ body{
     font-size:2.8vw;
     color: #004075;
     
-    text-shadow: 1px 1px 5px #444;
-    
     margin: 30px 0px 10px 0px;
     margin: 2.09vw 0px 0.7vw 0px;
     
@@ -187,8 +191,6 @@ body{
     font-size:25pt;
     font-size:1.9vw;
     color: #5EB1EF;
-    
-    text-shadow: 1px 1px 5px #aaa;
     
     margin: 10px 0px 35px 0px;
     margin: 0.7vw 0px 2.44vw 0px;
@@ -241,7 +243,6 @@ body{
 
 .seccion .picture img:hover{
     
-    /*box-shadow: 0px 0px 50px #999;*/
     filter: drop-shadow(5px 5px 12px rgba(0,0,0,0.5));
 
 }
@@ -251,6 +252,7 @@ body{
     color: #4B8DBE;
     text-decoration: underline;
     font-weight: bold;
+    
     
 }
 
@@ -268,7 +270,7 @@ body{
     
     background-color: #fff;
     
-    box-shadow: 0px -20px 40px #fff;
+    border-top: 1px solid #ccc;
     
     font-family: 'Open Sans',sans-serif;
     font-size: 12px;
