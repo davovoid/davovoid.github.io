@@ -135,6 +135,8 @@ body{
     font-family: 'Open Sans',sans-serif;
     text-decoration: none;
     
+    display:inline-block;
+    
     border-radius: 5px;
     
     box-shadow: 0px 0px 15px #fff;
@@ -147,6 +149,13 @@ body{
 .pageTitle .botonDescarga:hover{
     
     background-color: #09599A;
+    
+}
+
+.pageTitle .botonDescarga .version{
+ 
+    font-size: 14pt;
+    font-size:1vw;
     
 }
 
